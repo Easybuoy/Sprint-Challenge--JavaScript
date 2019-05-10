@@ -29,30 +29,29 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-    `forEach` executes a function once on each elements while `map` creates a new array of result of functions run on each
-    elements.
+    `forEach` executes a function once on each element while `map` creates a new array of the result of functions run on each element.
 
 2. What is the difference between a function and a method?
     A `function` is a block of code that does some task while `method` is a function used as a property in an Object.
 
 3. What is closure?
-    A `closure` is when a function has access to vairables in its outer or top-level scope.
+    A `closure` is when a function has access to variables in its outer or top-level scope.
 
 4. Describe the four rules of the 'this' keyword.
-    - The first rule of this is when a function is available in the global scope, the value of this 
+    - The first rule of `this` is when a function is available in the global scope, the value of `this` 
     becomes the window object.
 
-    - The second rule of this is when a function is called by a preceding dot, this becomes the object before the 
+    - The second rule of `this` is when a function is called by a preceding dot, `this` becomes the object before the 
     preceding dot.
 
-    - The third principle of this key word is usage of `new` keyword when instantiating a constructor function.
-    this becomes the instance of the function.
+    - The third principle of `this` keyword is the usage of `new` keyword when instantiating a constructor function.
+    `this` becomes the instance of the function.
     
-    - The fourth rule of this is using call(), or apply(), or bind() to explicitly bind this.
+    - The fourth rule of `this` is using call(), or apply(), or bind() to explicitly bind `this`.
 
 5. Why do we need super() in an extended class?
     `super()` is needed when extending a class because it is being used to call the methods of the parent class
-    and also to pass the parameters requeired by the parent class.
+    and also to pass the parameters required by the parent class.
 
 
 ## Project Set up
